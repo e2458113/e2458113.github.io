@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="S">
+  <meta name="keywords" content="html,css,javascript">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <title>クリック連打ゲーム - プレイ</title>
+</head>
+
+<body data-page="game">
+
+  <div class="container">
+
+    <h2 id="time"></h2>
+    <h3 id="score">スコア: 0</h3>
+    <button id="clickBtn" class="btn blue">クリック！</button>
+  </div>
+
+
+  <audio id="bgm" src="./audio/bgm.mp3" loop></audio>
+  <audio id="clickSound" src="./audio/click.mp3"></audio>
+  <audio id="endSound" src="./audio/end.mp3"></audio>
+
+  <footer>
+    Copy right &copy; Seigo SUZUKI, All rights Reserved.
+  </footer>
+
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
