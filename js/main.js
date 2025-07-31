@@ -60,8 +60,7 @@ if (page === "result") {
 
     document.getElementById("result").textContent = `スコア: ${score} 回`;
     document.getElementById("cps").textContent = `CPS: ${cps}`;
-    document.getElementById("highscore").textContent =
-        "ハイスコア: " + (localStorage.getItem("highScore") || 0);
+    document.getElementById("highscore").textContent ="ハイスコア: " + (localStorage.getItem("highScore") || 0);
        
     
 }
