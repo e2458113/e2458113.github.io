@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="S">
+    <meta name="keywords" content="html,css,javascript">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>クリック連打ゲーム</title>
+</head>
+
+<body data-page="start">
+    <div class="container">
+        <h1>クリック連打ゲーム</h1>
+        <p>制限時間を選んでスタート！</p>
+        <form id="startForm">
+            <label><input type="radio" name="time" value="5">5秒</label>
+            <label><input type="radio" name="time" value="10" checked>10秒</label>
+            <label><input type="radio" name="time" value="20">20秒</label>
+            <br><br>
+            <button type="submit" class="btn green">スタート</button>
+        </form>
+        <p id="highscore"></p>
+
+    </div>
+
+    <footer>
+        Copy right &copy; Seigo SUZUKI, All rights Reserved.
+    </footer>
+    </div>
+
+    <script src="js/main.js">
+    </script>
+
+</body>
+
+</html>
